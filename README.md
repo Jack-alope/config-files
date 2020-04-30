@@ -4,7 +4,7 @@
 ~/.vimrc
 
 
-flake8 python3 python-pip python-isort yapf vim
+flake8 python3 python-pip python-isort yapf vim  
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ##tmux
@@ -15,6 +15,6 @@ tmux
 
 ##Shell
 
-fish
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+fish  
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish  
 fisher add Jack-alope/pure
