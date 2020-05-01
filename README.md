@@ -1,13 +1,13 @@
 # config-files
 
-##vimrc
+##vimrc  
 ~/.vimrc
 
 
 flake8 python3 python-pip python-isort yapf vim  
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-##tmux
+##tmux  
 ~/.tmux.config
 
 
@@ -15,7 +15,7 @@ tmux
 
 ##Shell
 
-zsh
+zsh  
 theme minimal
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions  
