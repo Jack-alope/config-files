@@ -1,4 +1,4 @@
-set nocompatible
+et nocompatible
 filetype off
 
 syntax enable
@@ -17,6 +17,10 @@ call plug#begin('~/.vim/plugged')
 " Formatting
 Plug 'chiel92/vim-autoformat'
 Plug 'fisadev/vim-isort'
+Plug 'mattn/emmet-vim'
+
+"Git
+Plug 'tpope/vim-fugitive'
 
 "Visual
 Plug 'yggdroot/indentline'
@@ -26,6 +30,9 @@ Plug 'neomake/neomake'
 
 "Statusline
 Plug 'itchyny/lightline.vim'
+
+"FileTree
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
