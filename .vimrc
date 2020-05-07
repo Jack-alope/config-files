@@ -1,4 +1,4 @@
-et nocompatible
+set nocompatible
 filetype off
 
 syntax enable
