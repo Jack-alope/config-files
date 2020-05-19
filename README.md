@@ -30,5 +30,6 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ## Terminal  
 
-Alacritty  
-~/.config/alacritty/alacritty.yml
+Kitty
+Theme Blazer
+https://github.com/dexpota/kitty-themes
