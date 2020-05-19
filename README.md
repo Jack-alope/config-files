@@ -7,7 +7,7 @@
 flake8 python3 python-pip python-isort yapf vim  
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-install node, npm
+install node, npm  
 npm install -g js-beautify
 
 ## tmux  
