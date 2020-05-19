@@ -30,6 +30,6 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ## Terminal  
 
-Kitty
-Theme Blazer
+Kitty  
+Theme Blazer  
 https://github.com/dexpota/kitty-themes
