@@ -33,3 +33,9 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 Kitty  
 Theme Blazer  
 https://github.com/dexpota/kitty-themes
+
+THEME=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/Blazer.conf  
+wget "$THEME" -P ~/.config/kitty/kitty-themes/themes  
+cd ~/.config/kitty  
+ln -s ./kitty-themes/themes/Blazer.conf ~/.config/kitty/theme.conf  
+vim ~/.config/kitty/kitty.conf #ADD include ./theme.conf
