@@ -32,11 +32,11 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ## Terminal  
 
 Kitty  
-Theme Blazer  
+Theme Desert  
 https://github.com/dexpota/kitty-themes
 
-THEME=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/Blazer.conf  
+THEME=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/Desert.conf  
 wget "$THEME" -P ~/.config/kitty/kitty-themes/themes  
 cd ~/.config/kitty  
-ln -s ./kitty-themes/themes/Blazer.conf ~/.config/kitty/theme.conf  
+ln -s ./kitty-themes/themes/Desert.conf ~/.config/kitty/theme.conf  
 vim ~/.config/kitty/kitty.conf #ADD include ./theme.conf
